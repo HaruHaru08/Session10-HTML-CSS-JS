@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e5e5e5;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 20px;
+}
+.tieude{
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.link{
+    display: flex;
+    gap: 10px;
+    margin: 12px;
+}
+.link a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #9e9e9e;
+}
+.link a:nth-of-type(1){
+    color: #484848;
+}
+button{
+    font-size: 10px;
+    background-color: #8d939e;
+    color: #cdd0d5;
+    padding:5px;
+    border-radius: 5px;
+    width: 8%;
+}
+button i{
+    margin-right: 5px;
+    font-size: 10px;
+}
