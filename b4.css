@@ -56,7 +56,6 @@ button {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    overflow: hidden;
     box-shadow: -5px 10px 0px white;
     border: 5px solid white;
 }
